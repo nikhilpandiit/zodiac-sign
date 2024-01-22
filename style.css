@@ -1,0 +1,44 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container h1 {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.container select {
+  background-color: rgb(45, 45, 45);
+  margin: 3rem;
+  color: white;
+  padding: 12px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.container option {
+  padding: 4px;
+}
+
+.container button {
+  background-color: rgb(217, 238, 96);
+  margin: 3rem 0px 0px 0px;
+  color: white;
+  padding: 12px;
+  width: 10%;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.5s;
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: rgb(167, 63, 149);
+}
